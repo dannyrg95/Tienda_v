@@ -9,21 +9,21 @@
         <meta name="keywords" content="html5, css3, web, fidelitas">
     </head>
     <body>
-        <header><!-- Etiqueta para ofrecerle al browser info de que es un encabezado -->
+        <header id="encabezado"><!-- Etiqueta para ofrecerle al browser info de que es un encabezado -->
             <h1>TechShop</h1>
         </header>
-        <nav><!-- Esta etiqueta es para ilustrarle al browser que posiblemente es un Menu -->
+        <nav id="menu"><!-- Esta etiqueta es para ilustrarle al browser que posiblemente es un Menu -->
             <!-- Menu de navegacion -->
             <a href="ejemplo9.html">Back</a>|
             <a href="index.html">Home</a>|
             <a href="ejemplo2.html">Next</a><br>
         </nav>
-        <aside><!-- Etiqueta para indicar que es una barra lateral al final, puede ser a la izq o a la der, y pueden ser varias -->
+        <aside id="barralateral"><!-- Etiqueta para indicar que es una barra lateral al final, puede ser a la izq o a la der, y pueden ser varias -->
             <h2>Productos mas vendidos</h2><!-- Titulo 2 -->
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ad, porta litora mollis viverra vel aliquam habitasse, nullam commodo cursus conubia natoque ante aenean. Sociosqu placerat maecenas dignissim eleifend lobortis cum cras, cubilia eu quam fermentum gravida imperdiet erat montes, dapibus enim ullamcorper elementum pellentesque ligula. Quisque aliquam morbi penatibus feugiat aenean congue ut, euismod nam lacinia tempor ante per habitasse, venenatis porta lobortis malesuada non faucibus.<p>
         </aside>
 
-        <section>
+        <section id="contenido">
             <h2>Articulos principales</h2>
             <article><!-- Articulos -->
                 <header>Portatil XRT 5000</header>
@@ -51,8 +51,47 @@
                     <figcaption>Mas economica</figcaption>
                 </figure>
             </article>    
+            <article>
+                <header>Resumen de lineas generales</header>
+                  , arcu fermentum molestie quam eleifend velit pretium cras porta, in sodales montes nam libero sagittis eget taciti. Donec tortor netus inceptos tincidunt sociis molestie blandit, viverra ad gravida tempus curae et fames, congue lectus elementum ante ultrices leo. Hendrerit montes vitae sollicitudin at risus torquent curabitur taciti elementum sodales, interdum venenatis libero turpis suscipit erat odio gravida cursus, aliquam nulla penatibus rhoncus fusce ullamcorper ornare praesent primis.</p>
+                <table border="1">
+                    <thead id="encabezadoTabla">
+                        <tr>
+                            <th>Codigo</th>
+                            <th>Detalle</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaresumen">
+                        <tr>
+                            <td>1</td>
+                            <td>Nam taciti ornare luctus iaculis</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>leo sagittis venenatis, libero quisque </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>maecenas rhoncus urna nisl, curabitur</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>risus lacinia turpis in sed.</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Dis egestas hendrerit eu a pharetra</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>faucibus ultrices donec nostra</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </article>  
         </section>|
 
-        <footer>Derechos reservados &COPY; 2022 <address>Tel 8889-7744</address><!-- Direccion --></footer>
+        <footer id="piepagina">Derechos reservados &COPY; 2022 <address style="display: inline">Tel 8889-7744</address><!-- Direccion --></footer>
     </body>
 </html>
