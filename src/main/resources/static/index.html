@@ -1,31 +1,58 @@
 <!DOCTYPE html>
-
-<html>
+<!-- Se actualiza la pagina index para que contenga nuevas etiquetas meta y 
+  demas etiquetas para la semantica del body -->
+<html lang="es"> <!-- Le indica a los traductores en linea que la pagina va a estar escrita en español -->
     <head>
         <title>Tienda en linea</title><!-- Nombre de la pestaña -->
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Esta pagina contiene etiquetas del tipo html5 y luego enlaces o definicion de estilos css3">
+        <meta name="keywords" content="html5, css3, web, fidelitas">
     </head>
     <body>
-        
-        <!-- Menu de navegacion -->
-        <a href="ejemplo9.html">Back</a>|
-        <a href="index.html">Home</a>|
-        <a href="ejemplo2.html">Next</a><br>
-        
-        <div><!-- Encapsular contenedores, bloques de elementos -->
-            <h1 style="text-align: center">Home</h1><!-- Titulo 1 -->
-            <p>Bienvenidos a la pagina de la Tienda en linea<p>
-        </div>
-        
-        <!-- Parrafos -->
-        <p style="text-align: left">Lorem ipsum dolor sit amet consectetur adipiscing elit quisque, habitasse dui cras eu mauris lectus libero etiam penatibus, morbi accumsan nunc egestas fames sodales volutpat. Curabitur leo egestas aptent ante semper cum auctor vulputate at eros, ac sagittis senectus nisi nec rutrum mattis cubilia aliquet faucibus, eget enim nam quisque ullamcorper himenaeos ultricies fames ad. Nulla mollis netus ornare cras suscipit per, venenatis mus id tellus litora pulvinar, at sociosqu non vitae nibh.</p>
+        <header><!-- Etiqueta para ofrecerle al browser info de que es un encabezado -->
+            <h1>TechShop</h1>
+        </header>
+        <nav><!-- Esta etiqueta es para ilustrarle al browser que posiblemente es un Menu -->
+            <!-- Menu de navegacion -->
+            <a href="ejemplo9.html">Back</a>|
+            <a href="index.html">Home</a>|
+            <a href="ejemplo2.html">Next</a><br>
+        </nav>
+        <aside><!-- Etiqueta para indicar que es una barra lateral al final, puede ser a la izq o a la der, y pueden ser varias -->
+            <h2>Productos mas vendidos</h2><!-- Titulo 2 -->
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ad, porta litora mollis viverra vel aliquam habitasse, nullam commodo cursus conubia natoque ante aenean. Sociosqu placerat maecenas dignissim eleifend lobortis cum cras, cubilia eu quam fermentum gravida imperdiet erat montes, dapibus enim ullamcorper elementum pellentesque ligula. Quisque aliquam morbi penatibus feugiat aenean congue ut, euismod nam lacinia tempor ante per habitasse, venenatis porta lobortis malesuada non faucibus.<p>
+        </aside>
 
-        <p style="text-align: right">Pellentesque eget odio conubia placerat nibh cum auctor nunc nisi nec donec, mattis ornare cursus velit turpis lacus inceptos aliquam vehicula arcu, sociosqu suscipit et purus dignissim sagittis taciti pharetra vitae molestie. Lacus eget id nulla hendrerit cubilia aliquet pellentesque cras senectus libero blandit porta etiam interdum, nec cum ultricies nibh lectus nisi turpis morbi montes curae ultrices erat.</p>
+        <section>
+            <h2>Articulos principales</h2>
+            <article><!-- Articulos -->
+                <header>Portatil XRT 5000</header>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit quisque, habitasse dui cras eu mauris lectus libero etiam penatibus, morbi accumsan nunc egestas fames sodales volutpat. Curabitur leo egestas aptent ante semper cum auctor vulputate at eros, ac sagittis senectus nisi nec rutrum mattis cubilia aliquet faucibus, eget enim nam quisque ullamcorper himenaeos ultricies fames ad. Nulla mollis netus ornare cras suscipit per, venenatis mus id tellus litora pulvinar, at sociosqu non vitae nibh.</p>
+                <footer>Agregar al carrito</footer>
+                <figure>
+                    <img src="images/equipo1.jpg" alt="Portatil XRT" width="500"/>
+                </figure>
+            </article>
+            <article>
+                <header>Alienware ATD 9000</header>
+                <p>Esta inspirada en la pelicula <cite>Aliens el octavo pasajero</cite><!-- Citas -->Pellentesque eget odio conubia placerat nibh cum auctor nunc nisi nec donec, mattis ornare cursus velit turpis lacus inceptos aliquam vehicula arcu, sociosqu suscipit et purus dignissim sagittis taciti pharetra vitae molestie. Lacus eget id nulla hendrerit cubilia aliquet pellentesque cras senectus libero blandit porta etiam interdum, nec cum ultricies nibh lectus nisi turpis morbi montes curae ultrices erat.</p>
+                <footer>Agregar al carrito</footer>
+                <figure>
+                    <img src="images/equipo2.jpg" alt="Alienware" width="500"/>
+                    <figcaption>Mas vendido</figcaption>
+                </figure>
+            </article>
+            <article>
+                <header>Impresora 3D portable</header>
+                <p>Nam taciti ornare luctus iaculis leo sagittis venenatis, libero quisque maecenas rhoncus urna nisl, curabitur risus lacinia turpis in sed. Dis egestas hendrerit eu a pharetra faucibus ultrices donec nostra, arcu fermentum molestie quam eleifend velit pretium cras porta, in sodales montes nam libero sagittis eget taciti. Donec tortor netus inceptos tincidunt sociis molestie blandit, viverra ad gravida tempus curae et fames, congue lectus elementum ante ultrices leo. Hendrerit montes vitae sollicitudin at risus torquent curabitur taciti elementum sodales, interdum venenatis libero turpis suscipit erat odio gravida cursus, aliquam nulla penatibus rhoncus fusce ullamcorper ornare praesent primis.</p>
+                <footer>Agregar al carrito</footer>
+                <figure>
+                    <img src="images/equipo3.jpg" alt="3D Print" width="500"/>
+                    <figcaption>Mas economica</figcaption>
+                </figure>
+            </article>    
+        </section>|
 
-        <p style="text-align: center">Nam taciti ornare luctus iaculis leo sagittis venenatis, libero quisque maecenas rhoncus urna nisl, curabitur risus lacinia turpis in sed. Dis egestas hendrerit eu a pharetra faucibus ultrices donec nostra, arcu fermentum molestie quam eleifend velit pretium cras porta, in sodales montes nam libero sagittis eget taciti. Donec tortor netus inceptos tincidunt sociis molestie blandit, viverra ad gravida tempus curae et fames, congue lectus elementum ante ultrices leo. Hendrerit montes vitae sollicitudin at risus torquent curabitur taciti elementum sodales, interdum venenatis libero turpis suscipit erat odio gravida cursus, aliquam nulla penatibus rhoncus fusce ullamcorper ornare praesent primis.</p>
-        <br><!-- Line Break -->
-        <br>
-        <p>Ultima linea</p>
+        <footer>Derechos reservados &COPY; 2022 <address>Tel 8889-7744</address><!-- Direccion --></footer>
     </body>
 </html>
